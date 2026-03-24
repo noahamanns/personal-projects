@@ -1,0 +1,15 @@
+.current-weather {
+     max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+    gap: 50px;
+}
+
+.forecast-cards {
+    display: flex;
+    gap: 1rem;
+}
+
+.forecast-card {
+    flex: 1;
+}
