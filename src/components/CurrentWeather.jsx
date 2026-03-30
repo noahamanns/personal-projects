@@ -10,11 +10,11 @@ const getDayAndHHMM = (rawdate) => {
 }
 
 const CurrentWeather = ({data,location}) => {
-    const forecastDayEntries = data?.forecast?.forecastday?.slice(0, 3) ?? [];
+    const forecastDayEntries = data?.forecast?.forecastday?.slice(0, 2) ?? [];
     const { localtime, name, region } = location;
     const {temp_f, condition, feelslike_f} = data.current;
 
-    const dayLabels = ['Today', 'Tomorrow', 'Day after'];
+    const dayLabels = ['Today', 'Tomorrow'];
     return (
         <div className="current-weather">
             <div className="location-header">
