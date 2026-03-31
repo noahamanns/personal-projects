@@ -4,7 +4,6 @@ import { getWeatherData } from './api';
 import SearchBar from './components/SearchBar';
 import CurrentWeather from './components/CurrentWeather';
 import HourlyForecast from './components/HourlyForecast';
-import WeeklyForecast from './components/WeeklyForecast';
 import { parse } from 'date-fns';
 
 
