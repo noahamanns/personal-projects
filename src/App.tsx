@@ -73,7 +73,6 @@ return (
           location={weatherData.location} 
           />
         <HourlyForecast data={weatherData.hourly} />
-        <WeeklyForecast data={weatherData.weekly} />
         </>
       )}
     </div>
